@@ -1,0 +1,24 @@
+{
+    "name": "n_a_d/dentaluna",
+    "description": "Pagina Web consultorio dental DENTALUNA",
+    "version": "2.7.2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturo Salazar",
+            "email": "salazar25arturo@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
