@@ -19,7 +19,7 @@ class Router
 
     public function comprobarRutas()
     {
-        session_start();
+        // session_start();
 
         $currentUrl = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
         $method = $_SERVER['REQUEST_METHOD'];
